@@ -9,4 +9,7 @@ class profile::agent_nodes {
   host {'db.puppet.vm':
     ensure => present,
   }
+   host {'minetest.puppet.vm':
+    ensure => present,
+  }
 }
