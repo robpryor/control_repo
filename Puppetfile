@@ -1,6 +1,6 @@
 mod 'puppet/nginx'
 mod 'puppetlabs/stdlib'
 mod 'puppetlabs/concat'
-mod 'puppetlabs/docker', '3.10.2'
+mod 'puppetlabs/docker'
 mod 'puppetlabs/translate'
 mod 'puppet/epel'
